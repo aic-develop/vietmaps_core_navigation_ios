@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name = "VietMapsCoreNavigation"
-  s.version = "0.1.0"
+  s.version = "1.0.0"
   s.summary = "Core components for turn-by-turn navigation on iOS."
 
   s.description  = <<-DESC
@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
 
   s.dependency "MapboxNavigationNative", "~> 6.2.1"
   s.dependency "MapboxAccounts", "~> 2.2.0"
-  s.dependency "VietMapsDirections", "~> 0.1.0"
+  s.dependency "VietMapsDirections", "~> 1.0.0"
   s.dependency "VietMapsMobileEvents", "~> 0.1.0"        # Always pin to a patch release if pre-1.0
   s.dependency "Turf", "~> 0.3.0"                       # Always pin to a patch release if pre-1.0
 
